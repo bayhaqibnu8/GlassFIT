@@ -351,13 +351,16 @@ nav ul li a:hover::after {
     background-position-x: -20px;
     background-position-y: -100px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
-.contact h1 {
-    font-size: 2rem;
+.contact .judulh1 {
+    position: absolute;
+    top: 100px;
+    left: 35px;
+    font-size: 3rem;
     color: #6F2D28;
 }
 
@@ -394,7 +397,7 @@ nav ul li a:hover::after {
 }
 
 .card-contact p {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 
