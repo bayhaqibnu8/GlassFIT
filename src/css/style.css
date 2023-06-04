@@ -351,8 +351,14 @@ nav ul li a:hover::after {
     background-position-x: -20px;
     background-position-y: -100px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.contact h1 {
+    font-size: 2rem;
+    color: #6F2D28;
 }
 
 #contact .container-card {
@@ -392,3 +398,7 @@ nav ul li a:hover::after {
 }
 
 
+/* footer */
+footer {
+    text-align: center;
+}
