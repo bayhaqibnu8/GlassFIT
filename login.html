@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
+    <link rel="stylesheet" href="src/css/login.css">
 </head>
+
 <body>
-    
+    <section id="login" class="login">
+        <div class="container">
+            <div class="container-login">
+                <h1>Log In</h1>
+            <p class="p1">Continue with Google or enter your details.</p>
+            <button class="b1">Log In with Google</button>
+            
+            <br>
+            
+            <img src="src/img/or.svg" style="width: 400px;" alt="">
+            
+            <form>
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email" placeholder="Enter Your Email"><br>
+                <label for="password">Password</label><br>
+                <input type="text" id="password" name="password" placeholder="Enter Your Password">
+            </form>
+            
+            <div class="createNow">
+                <p>You don't have an account? <span><a href="register.html">Create Now</a></span></p>
+                <!-- <a href="#">Forgot password?</a> -->
+            </div>
+            <button>Log In</button>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
